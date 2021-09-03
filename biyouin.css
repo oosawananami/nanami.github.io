@@ -1,0 +1,384 @@
+@charset "UTF-8";
+
+.header {
+  overflow: hidden; /*領域に収まらない内容をどう処理するかの指定*/
+  line-height: 48px;
+}
+
+.header h1{
+  float: left; /*ロゴを左に浮かせる*/
+}
+
+.header ul a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header ul{  float: right; /*メニューリストを右に浮かせる*/}
+
+body{margin: 0 50 0 50;}
+
+/* .main_visual_text{
+  display: inline-block;
+  padding: 10px 20px; */
+
+.main_visual{
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  background-image: url('http://localhost/ci/image/biyouin/bg_scroll02.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*-------------------
+*
+*  About
+*
+--------------------*/
+.About {padding-top: 200px;}
+
+.wrapper-about{
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.img-about{width: 50%;}
+
+.wrapper-txt{
+  display: flex;
+  flex-flow: column;
+  padding: 60 0 0 60;
+  text-align: center;
+
+}
+
+.section-title{/*テキスト左詰めのタイトル*/
+  margin: 0;
+  width: 50%;
+  text-align: left;
+  font-size: 2.3em;
+}
+
+.about-title{
+  text-align: left;
+  width: 50%;
+}
+
+.txt{text-align: center;}
+
+.about-text{
+  display: inline-block;
+  text-align: left;
+}
+
+/*-------------------
+*
+*  Consept
+*
+--------------------*/
+.Concept {padding-top: 200px;
+}
+
+.wrapper-concept{
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
+.wrap-txt{
+  text-align: left;
+  padding: 60 60 0 0;
+}
+.concept-title{
+  text-align: left;
+  width: 50%;
+}
+ol{
+ padding-left: 20;
+ display: table;}
+
+.img-concept{width: 50%;}
+/*-------------------
+*
+*  Staff
+*
+--------------------*/
+.Staff{padding-top: 200px;}
+
+img{
+  max-width: 100%; /*画像の縦横比が変わらないように*/
+  vertical-align:bottom;
+}
+
+.wrapper-staff{
+  text-align: center;
+}
+
+.staff-title{ /*中央にあるタイトルの設定*/
+  /* margin: 0;
+  width: 50%; */
+  font-size: 2.3em;
+  padding: 0 300 0 300;
+  text-align: center;
+}
+.img-staff{
+  width: 180px; /*画像の親要素のサイズ指定*/
+  margin-right: 20px;
+}
+
+.wrap-staff{
+  display: flex; /*画像とプロフィールを横並びにする*/
+  justify-content: center; /*flexで横並びにした要素の場所を指定*/
+  padding-top: 20;
+}
+
+.staff-data{
+transform: translateY(15%);
+}
+/*-------------------
+*
+*  Style
+*
+--------------------*/
+.style{padding-top: 200px;}
+.style-img{  margin: 0 200 0 200;
+
+}
+
+.style-img img{
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 50px;
+  left: 50px;
+  bottom: 0;
+  /* right: 0; */
+  vertical-align:bottom;
+  margin-right: 0;
+  object-fit：cover;
+}
+
+.style-img li{
+  width: 25%; /*1行に4つ並べる*/
+  position: relative;
+  align-self: center;
+}
+
+.style-img li::before{
+  content: "";
+  display: block;
+  padding-top: 100%; /*アスペクト比指定*/
+}
+.style-img ul{
+  list-style-type: none; /*リストの装飾*/
+  display:flex;
+  flex-wrap: wrap; /*子要素の折り返し表示*/
+  padding: 0;
+}
+
+/*-------------------
+*
+*  Menu
+*
+--------------------*/
+.Menu{padding-top: 200px;}
+
+.joudan{
+  display: flex;
+  justify-content: center;
+}
+
+.ue{padding: 20 80 20 80;}
+
+.gedan{
+  display: flex;
+  justify-content: center;
+}
+
+.shita{padding: 20 80 20 80;}
+
+.contents01{/*cut*/
+  font-size: 1.8em;
+  margin: 0;
+}
+.contents01::before{
+  content: " ";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+  vertical-align: middle;
+  background-image: url('http://localhost/ci/image/biyouin/icon_menu/icon_cut.svg');
+  background-repeat: no-repeat;/*アイコンの繰り返しなし*/
+}
+
+.contents02{/*color*/
+  font-size: 1.8em;
+  margin: 0;
+}
+.contents02::before{
+  content: " ";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  background-image: url('http://localhost/ci/image/biyouin/icon_menu/icon_color.svg');
+  background-repeat: no-repeat;/*アイコンの繰り返しなし*/
+}
+
+.contents03{/*perm*/
+  font-size: 1.8em;
+  margin: 0;
+}
+.contents03::before{
+  content: " ";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+  vertical-align: middle;
+  background-image: url('http://localhost/ci/image/biyouin/icon_menu/icon_perm.svg');
+  background-repeat: no-repeat;/*アイコンの繰り返しなし*/
+}
+
+.contents04{/*straighting*/
+  font-size: 1.8em;
+  margin: 0;
+}
+.contents04::before{
+  content: " ";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+  vertical-align: middle;
+  background-image: url('http://localhost/ci/image/biyouin/icon_menu/icon_straighting.svg');
+  background-repeat: no-repeat;/*アイコンの繰り返しなし*/
+}
+
+.contents05{/*other*/
+  font-size: 1.8em;
+  margin: 0;
+}
+.contents05::before{
+  content: " ";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+  vertical-align: middle;
+  background-image: url('http://localhost/ci/image/biyouin/icon_menu/icon_other.svg');
+  background-repeat: no-repeat;/*アイコンの繰り返しなし*/
+}
+
+.hurubosan{
+  text-align: center;
+  padding: 30 0 30 0;
+}
+.naiyou06{
+  width: 55%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contents06{/*フルボ酸とは*/
+  font-size: 1.5em;
+  margin-top: 15px;
+  margin-bottom: auto;
+}
+
+.btn{
+  text-align: center;
+  padding: 30 0 30 0;
+  width: auto;
+}
+
+.look{
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 13px;/*角を丸くする*/
+  background: gray;/*背景*/
+  padding: 10px;
+  font-family: 'Avenir','Arial';
+  text-decoration: none;
+  width: auto;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.paypay{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.card{
+  text-align: center;
+  padding: 0;
+  height: 60px;
+      }
+.VISA img{
+  padding: 0 10 0 10;
+  width: 100px;}
+.JCB img{
+  padding: 0 10 0 10;
+  width: 100px;}
+.AMEX img{
+  padding: 0 10 0 10;
+  width: 100px;}
+.DINER img{
+  padding: 0 10 0 10;
+  width: 100px;}
+
+/*-------------------
+*
+*  Reserve
+*
+--------------------*/
+.Reserve{margin-top: 200px;
+  background-color: #E9DCD5;}
+.wrap-reserve{
+  display: flex;
+}
+.yoyaku{
+  text-align: left;
+  padding: 60 0 0 30;
+  width: 50%;
+}
+.yoyaku-jikan{
+  font-size: 1.5em;
+}
+.htpp{
+  text-decoration: none;
+  color: black;
+}
+/*-------------------
+*
+*  access
+*
+--------------------*/
+.Access{margin-top: 200px;}
+
+.wrap-shop{
+  text-align: center;
+  width: 1300px;
+  margin: auto;
+}
+
+.shop{
+  text-align: left;
+  display: flex;
+  font-size: 1.2em;
+}
+
+.MAP{background-color: #797C80;
+  font-size: 2.3em;
+  color: #E6E9E9;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  width: 1300px;
+  height: 600px;
+}
