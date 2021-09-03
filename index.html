@@ -1,37 +1,195 @@
 <html lang="ja">
 <head>
-    <meta charset="utf-8">
-    <title>勝手にdisneyキャラクター紹介</title>
-    <link rel="stylesheet" type="text/css" href="http://localhost/ci/css/disney.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
+  <meta charset="utf-8">
+  <title>＃クリスタチャレンジ　美容院サイト編</title>
+  <!-- https://crestadesign.org/webdesign-work01/ -->
+  <link rel="stylesheet" type="text/css" href="http://localhost/ci/css/biyouin.css">
 </head>
+
 <body>
-  <header>
-<h2>
-  DISNEY FRIENDS
-</h2>
-
-<!-- <h2>CHARACTER</h2> -->
-<div id = "mokuji">
-<ul>
-  <!-- <li id ="header"> -->
-  <a href = "http://localhost/disney/mickey.html">Mickey and friends</a>
-  <a href = "http://localhost/disney/duffy.html">Duffy  and friends</a>
-<!-- </li> -->
-</ul>
+ <header>
+   <div class="header">
+     <img src="http://localhost/ci/image/biyouin/logo-type.svg" alt="logo">
+  <ul>
+<a href="#about">About</a>
+<a href="#Style">style</a>
+<a href="#menu">menu</a>
+<a href="#">Reserve</a>
+<a href="#">Access</a>
+  </ul>
 </div>
-</header>
-<div id="Introduction">
-このサイトは製作者の個人的な練習用サイトです。<br/>
-<br/>
-グリッドデザインとモーダルウィンドウを使いたくて作成したので<br/>
-<br/>
-それ以外の機能は特別付けていません。<br/>
-<br/>
-キャラクターの写真と説明文は作成者の独断と偏見により作成しておりますので悪しからず。<br/>
-<br/>
+ </header>
 
+<div class="main_visual">
+<!-- <div class="main_visual_text"></div> -->
 </div>
+
+
+<section class="About">
+  <div class="wrapper-about">
+    <div class="img-about"><img src="http://localhost/ci/image/biyouin/bg_scroll03.jpg"></div>
+      <div class="wrapper-txt">
+        <h2 class="section-title">About</h2>
+        <h3 class="about-title">Salon de beateについて</h3>
+          <div class="txt">
+            <p class="about-text">
+            Salon de beauteは東京の下町にある美容室です。<br>
+            夫婦で営んでおり、地元のお客様に寄り添ったお店でありたいと思っています。<br>
+            お客様と障害にわたってお付き合いができる。そんな存在を目指して日々お客様と接しています。<br>
+            </p>
+          </div>
+        </div>
+  </div>
+</section>
+
+<section class="Concept">
+  <div class="wrapper-concept">
+    <div class="wrap-txt">
+      <h2 class="section-title">Concept</h2>
+      <h3 class="Concept-title">「あなたのためのサロン」</h3>
+      <ol class="concept-text">
+        <li>カウンセリングから仕上げまで担当者が変わりません。</li>
+        <li>お一人お一人の髪質や頭皮の状態にあったトリートメント・薬剤を処方いたします。</li>
+        <li>プライベートサロンのため、お子様連れでもご来店いただけます。</li>
+        <li>お時間やお日にちの都合が合わない場合、出来る限り個別に対応させていただきます。</li>
+      </ol>
+    </div>
+    <div class="img-concept"><img src="http://localhost/ci/image/biyouin/bg_scroll04.jpg"></div>
+  </div>
+</section>
+
+<section class="Staff">
+  <div class="wrapper-staff">
+  <h2 class="staff-title">スタッフ</h2>
+  <div class="wrap-staff">
+    <div class="img-staff">
+      <img src="http://localhost/ci/image/biyouin/style01.jpg" alt="スタッフ">
+    </div>
+    <p class="staff-data">
+      名前　石井真一<br>
+      生年月日　1989年11月22日<br>
+      出身地　東京都葛飾区<br>
+      血液型　B型<br>
+      趣味　NBA観戦
+    </p>
+  </div>
+  <p class="staff-text">
+    愛着のある地元で美容室ができることを大変うれしく思っております。<br>
+    お一人お一人のお客様に寄り添い、末長いお付き合いができるよう、日々精進してまいりますので、よろしくお願いします！
+  </p>
+</div>
+</section>
+
+<section class="style">
+  <a id="Style"><h2 class="staff-title">Style</h2></a>
+  <div class="style-img">
+    <ul>
+      <li><img src="http://localhost/ci/image/biyouin/style/style02.jpg"></li>
+      <li><img src="http://localhost/ci/image/biyouin/style/style03.jpg"></li>
+      <li><img src="http://localhost/ci/image/biyouin/style/style04.jpg"></li>
+      <li><img src="http://localhost/ci/image/biyouin/style/style05.jpg"></li>
+      <li><img src="http://localhost/ci/image/biyouin/style/style06.jpg"></li>
+      <li><img src="http://localhost/ci/image/biyouin/style/style07.jpg"></li>
+      <li><img src="http://localhost/ci/image/biyouin/style/style08.jpg"></li>
+      <li><img src="http://localhost/ci/image/biyouin/style/style09.jpg"></li>
+    </ul>
+  </div>
+</section>
+
+<section class="Menu">
+ <h2 class="staff-title">Menu</h2>
+ <div class="joudan">
+   <div class="ue">
+     <p class="contents01">cut</p>
+     <div class="naiyou">カット＆シャンプー ：\4,100</div>
+  </div>
+
+  <div class="ue">
+    <p class="contents02">color</p>
+    <div class="naiyou">高濃度フルボ酸リタッチカラー ：\8,500<br>
+                        高濃度フルボ酸ワンメイクカラー ：\9,500<br>
+                        高濃度フルボ酸入りWカラー ：\15,000</div>
+  </div>
+  <div class="ue">
+    <p class="contents03">perm</p>
+    <div class="naiyou">高濃度フルボ酸スピデジパーマ ：\14,000<br>
+                        メンズデザインパーマ ：\9,800<br>
+                        高濃度フルボ酸入りコスメパーマ ：\12,000<br>
+                        高濃度フルボ酸入りポイントパーマ ：\8,000<br>
+                        ニュアンスストレート ：\12,800</div>
+  </div>
+</div>
+
+<div class="gedan">
+  <div class="shita">
+    <p class="contents04">straighting</p>
+    <div class="naiyou">高濃度フルボ酸入り縮毛矯正 ：\12,000<br>
+                      高濃度フルボ酸入りポイント矯正 ：\4,250～</div>
+  </div>
+  <div class="shita">
+    <p class="contents05">other</p>
+    <div class="naiyou">シャンプー＆ブロー ：\2,700<br>
+                        完熟トリートメントヘッドスパ ：\3,800</div>
+  </div>
+</div>
+
+<div class="hurubosan">
+ <p class="contents06">～高濃度フルボ酸とは？～</p>
+ <div class="naiyou06">
+   フルボ酸とは土壌の中に存在する有機酸の１つで、自然界の中では植物にミネラルを補給する機能があります。
+   人に対しては、美容や健康に対して効果があると期待されている成分です。Salon de beauteでは美容成分であるフルボ酸を高濃度で配合した製品を使用しています。
+ </div>
+</div>
+<div class="btn"><a class="look" href="#">もっと見る</a></div>
+<div class="pay">
+  <p class="paypay">各種カードでお支払いいただけます。</p>
+    <ul class="card">
+      <span class="VISA"><img src="http://localhost/ci/image/biyouin/38610_visa_curved_icon.png"></span>
+      <span class="JCB"><img src="http://localhost/ci/image/biyouin/jcb-logomark-img-01.gif"></span>
+      <span class="AMEX"><img src="http://localhost/ci/image/biyouin/38591_express_straight_american_icon.png"></span>
+      <span class="DINER"><img src="http://localhost/ci/image/biyouin/diners-logomark-img-01.gif"></span>
+    </ul>
+</div>
+</section>
+
+<section class="Reserve">
+<div class="wrap-reserve">
+  <div class="yoyaku">
+  <h2 class="section-title">Reserve</h2>
+  <div class="yoyaku-jikan">
+ご予約はお電話または、hotpepper beautyから伺っております。<br>
+電話番号：03-0000-0000
+
+<div class="OPEN">
+  <p class="opn">Open</p>
+  水木金 10:00～22:00<br>
+  (最終受付：パーマ・カラー 18:00/カット 19:00)<br>
+  土日月 10:00～20:00<br>
+  (最終受付：パーマ・カラー 18:00/カット 19:00)<br>
+</div>
+<div class="CLOSE">
+  <p class="cls">Close</p>
+  月曜日・不定休<br>
+  (不定休についてはBlogでお知らせします)
+</div>
+<a href="https://beauty.hotpepper.jp/slnH000223532/" class="htpp">HOT PEPPER →<a>
+</div>
+</div>
+<div class="img-reserve"><img src="http://localhost/ci/image/biyouin/bg_scroll01.jpg"></div>
+</div>
+</section>
+
+<section class="Access">
+  <h2 class="staff-title">Access</h2>
+  <div class="wrap-shop">
+<div class="shop">
+  Salon de beaute<br>
+  Tel:003-0000-0000<br>
+  Adress:〒120-0000 東京都葛飾区●●　×-×-× ○○ビル1F
+</div>
+  <div class="MAP">MAP</div>
+</div>
+</section>
+
+
 </body>
-</html>
