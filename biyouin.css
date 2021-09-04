@@ -348,11 +348,24 @@ transform: translateY(15%);
   width: 50%;
 }
 .yoyaku-jikan{
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+}
+
+p .opn{
+  margin: 0;
+  padding:10 0 0 5;
+  font-weight: bold;
+}
+
+p .cls{
+  margin: 0;
+  padding:10 0 0 5;
+  font-weight: bold;
 }
 .htpp{
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 .img-reserve{width: 50%;}
 /*-------------------
