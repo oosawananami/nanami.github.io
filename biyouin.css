@@ -344,20 +344,20 @@ transform: translateY(15%);
 }
 .yoyaku{
   text-align: left;
-  padding: 60 0 0 30;
+  padding: 40 0 20 30;
   width: 50%;
 }
 .yoyaku-jikan{
   /* font-size: 1.5em; */
 }
 
-p.opn{
+.opn{
   margin: 0;
   padding:10 0 0 5;
   font-weight: bold;
 }
 
-p.cls{
+.cls{
   margin: 0;
   padding:10 0 0 5;
   font-weight: bold;
