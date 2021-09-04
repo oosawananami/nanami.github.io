@@ -351,13 +351,13 @@ transform: translateY(15%);
   /* font-size: 1.5em; */
 }
 
-p .opn{
+p.opn{
   margin: 0;
   padding:10 0 0 5;
   font-weight: bold;
 }
 
-p .cls{
+p.cls{
   margin: 0;
   padding:10 0 0 5;
   font-weight: bold;
