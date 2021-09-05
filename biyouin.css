@@ -392,7 +392,7 @@ transform: translateY(15%);
   color: #E6E9E9;
   text-align: center;
   align-items: center;
-  margin: auto;
-  width: 1300px;
-  height: 600px;
+  margin: 20;
+  /* width: 1300px; */
+  /* height: 600px; */
 }
