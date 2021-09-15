@@ -7,9 +7,7 @@
     line-height: 48px;
   }
 
-  .header h1{
-    float: left; /*ロゴを左に浮かせる*/
-  }
+
 
   .main_visual{
     width: 100%;
@@ -29,7 +27,6 @@
   padding-right: 10px;
 } */
 
-.header ul{  float: right; /*メニューリストを右に浮かせる*/}
 
 body{margin: 0 50 0 50;}
 
@@ -403,34 +400,44 @@ transform: translateY(15%);
   height: 600px;
 }
 @media screen and (min-width: 501px){/*PCの場合*/
+  .header h1{
+    float: left; /*ロゴを左に浮かせる*/
+  }
 .header ul a {
     text-decoration: none;
     color: blue;
     padding-left: 10px;
     padding-right: 10px;
   }
+
+.header ul{  float: right; /*メニューリストを右に浮かせる*/}
+
 .burger{display: none;}
 }
 
 
 @media screen and (max-width: 500px){/*スマホ、タブレット表示*/
-.header ul a {
+  .header h1{float: center; /*ロゴを左に浮かせる*/}
+
+  .header ul a {
     text-decoration: none;
     color: #f00;
     padding-left: 10px;
     padding-right: 10px;
   }
 
-.burger{/*ハンバーガーメニュー*/
+
+ .burger{/*ハンバーガーメニュー*/
     display: block;
     width: 39px;
     height: 39px;
     position: relative;
     z-index: 3;
     border:none;
+    float: right;
   }
 
-.bar{
+ .bar{
     width: 20px;
     height: 1px;
     display: block;
@@ -439,10 +446,11 @@ transform: translateY(15%);
     transform: translateX(-50%);
     background-color: black;
   }
-.bar_top{top: 10px;}
-.bar_mid{
+ .bar_top{top: 10px;}
+ .bar_mid{
   top: 50%;
   transform: translate(-50%,-50%);
-}
-.bar_bottom{bottom: 10px;}
+  }
+ .bar_bottom{bottom: 10px;}
+
  }
