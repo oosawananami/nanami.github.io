@@ -402,7 +402,7 @@ transform: translateY(15%);
   width: 1300px;
   height: 600px;
 }
-@media screen and (max-width: 1080px)　{/*PCの場合*/
+@media screen and (min-width: 501px){/*PCの場合*/
   .header ul a {
     text-decoration: none;
     color: blue;
