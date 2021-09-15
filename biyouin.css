@@ -405,7 +405,12 @@ transform: translateY(15%);
 @media screen and (max-width: 1080px)　{/*PCの場合*/
 
 }
-@media screen and (max-width: 480px)　{/*スマホ、タブレット表示*/
-
+@media screen and (max-width: 500px){/*スマホ、タブレット表示*/
+  .header ul a {
+    text-decoration: none;
+    color: #f00;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
  }
