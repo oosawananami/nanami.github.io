@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 1080px)　{/*PCの場合*/
 
 
   .header {
@@ -403,6 +402,8 @@ transform: translateY(15%);
   width: 1300px;
   height: 600px;
 }
+@media screen and (max-width: 1080px)　{/*PCの場合*/
+
 }
 @media screen and (max-width: 480px)　{/*スマホ、タブレット表示*/
 
