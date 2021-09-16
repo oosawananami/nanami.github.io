@@ -486,11 +486,5 @@ transform: translateY(15%);
 /*↑メニュー開いたときの表示*/
 
 
-.MAP{background-color: #797C80;
-  font-size: 2.3em;
-  color: #E6E9E9;
-  text-align: center;
-  align-items: center;
-  margin: 20;
-}
+
  }
