@@ -134,42 +134,7 @@ transform: translateY(15%);
 *  Style
 *
 --------------------*/
-.style{padding-top: 200px;}
-.style-img{  margin: 0 200 0 200;
-
-}
-
-.style-img img{
-  position: absolute;
-  width: 75%;
-  height: 75%;
-  top: 50px;
-  left: 50px;
-  bottom: 0;
-  /* right: 0; */
-  vertical-align:bottom;
-  margin-right: 0;
-  object-fit：cover;
-}
-
-.style-img li{
-  width: 25%; /*1行に4つ並べる*/
-  position: relative;
-  align-self: center;
-}
-
-.style-img li::before{
-  content: "";
-  display: block;
-  padding-top: 100%; /*アスペクト比指定*/
-}
-.style-img ul{
-  list-style-type: none; /*リストの装飾*/
-  display:flex;
-  flex-wrap: wrap; /*子要素の折り返し表示*/
-  padding: 0;
-}
-
+/*それぞれレスポンシブの方に記載*/
 /*-------------------
 *
 *  Menu
@@ -399,6 +364,48 @@ transform: translateY(15%);
 
 /*-------------------
 *
+*  Style
+*
+--------------------*/
+.style{padding-top: 200px;}
+.style-img{  margin: 0 200 0 200;
+
+}
+
+.style-img img{
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 50px;
+  left: 50px;
+  bottom: 0;
+  /* right: 0; */
+  vertical-align:bottom;
+  margin-right: 0;
+  object-fit：cover;
+}
+
+.style-img li{
+  width: 25%; /*1行に4つ並べる*/
+  position: relative;
+  align-self: center;
+}
+
+.style-img li::before{
+  content: "";
+  display: block;
+  padding-top: 100%; /*アスペクト比指定*/
+}
+.style-img ul{
+  list-style-type: none; /*リストの装飾*/
+  display:flex;
+  flex-wrap: wrap; /*子要素の折り返し表示*/
+  padding: 0;
+}
+
+
+/*-------------------
+*
 *  Menu
 *
 --------------------*/
@@ -488,6 +495,46 @@ transform: translateY(15%);
 
 /*-------------------
 *
+*  Style
+*
+--------------------*/
+.style{padding-top: 200px;}
+.style-img{  margin: 0 20 0 20;}
+.style-img img{
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 50px;
+  left: 50px;
+  bottom: 0;
+  /* right: 0; */
+  vertical-align:bottom;
+  margin-right: 0;
+  object-fit：cover;
+}
+
+.style-img li{
+  /* width: 25%;  */
+  /*1行に4つ並べる*/
+  position: relative;
+  align-self: center;
+}
+
+.style-img li::before{
+  content: "";
+  display: block;
+  padding-top: 100%; /*アスペクト比指定*/
+}
+.style-img ul{
+  list-style-type: none; /*リストの装飾*/
+  display:flex;
+  flex-wrap: wrap; /*子要素の折り返し表示*/
+  padding: 0;
+}
+
+
+/*-------------------
+*
 *  Menu
 *
 --------------------*/
@@ -502,4 +549,24 @@ transform: translateY(15%);
 .ue{padding: 20 20 20 20;}
 .shita{padding: 20 20 20 20;}
 
+.naiyou06{
+  width: 90%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.VISA img{
+  padding: 0 10 0 10;
+  width: 70px;}
+.JCB img{
+  padding: 0 10 0 10;
+  width: 70px;}
+.AMEX img{
+  padding: 0 10 0 10;
+  width: 70px;}
+.DINER img{
+  padding: 0 10 0 10;
+  width: 70px;}
  }
