@@ -177,20 +177,6 @@ transform: translateY(15%);
 --------------------*/
 .Menu{padding-top: 200px;}
 
-.joudan{
-  display: flex;
-  justify-content: center;
-}
-
-.ue{padding: 20 80 20 80;}
-
-.gedan{
-  display: flex;
-  justify-content: center;
-}
-
-.shita{padding: 20 80 20 80;}
-
 .contents01{/*cut*/
   font-size: 1.8em;
   margin: 0;
@@ -413,11 +399,26 @@ transform: translateY(15%);
 
 /*-------------------
 *
-*  access
+*  Menu
 *
 --------------------*/
 
+.joudan{
+  display: flex;
+  justify-content: center;
 }
+
+.gedan{
+  display: flex;
+  justify-content: center;
+}
+
+.ue{padding: 20 80 20 80;}
+
+.shita{padding: 20 80 20 80;}
+
+
+}/*↑PC*/
 
 
 @media screen and (max-width: 500px){/*スマホ、タブレット表示*/
@@ -485,6 +486,20 @@ transform: translateY(15%);
 }
 /*↑メニュー開いたときの表示*/
 
+/*-------------------
+*
+*  Menu
+*
+--------------------*/
 
+.joudan{
+  justify-content: center;
+}
+
+.gedan{
+  justify-content: center;
+}
+.ue{padding: 20 20 20 20;}
+.shita{padding: 20 20 20 20;}
 
  }
