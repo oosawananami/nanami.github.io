@@ -333,6 +333,7 @@ transform: translateY(15%);
   overflow: hidden;
   padding-bottom: 75%;
   position: relative;
+  margin-bottom: 50;
 }
 .MAP iframe{
   position: absolute;
@@ -353,7 +354,7 @@ transform: translateY(15%);
   }
 .header ul a {
     text-decoration: none;
-    color: blue;
+    color: black;
     padding-left: 10px;
     padding-right: 10px;
   }
