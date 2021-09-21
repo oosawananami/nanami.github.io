@@ -487,8 +487,13 @@ transform: translateY(15%);
   position: fixed;
   top: 0;
   left: 0;
+  margin-top: 0;
   z-index: 2;
   background-color: #364E3B
+}
+
+.header ul li{
+  list-style: none;
 }
 
 .header ul a {
@@ -498,6 +503,8 @@ transform: translateY(15%);
   padding-left: 10px;
   padding-right: 10px;
 }
+
+
 /*↑メニュー開いたときの表示*/
 
 /*-------------------
