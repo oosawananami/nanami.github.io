@@ -5,6 +5,7 @@
   .header {
     overflow: hidden; /*領域に収まらない内容をどう処理するかの指定*/
     line-height: 48px;
+    position: fixed; /*ヘッダーが追従するように固定*/
   }
 
   .main_visual{
