@@ -17,7 +17,7 @@
     background-repeat: no-repeat;
   }
 
-body{margin: 0 50 0 50;}
+body{margin: 110 50 0 50;}/*ヘッダーと重ならないよう位置指定*/
 
 /* .main_visual_text{
   display: inline-block;
