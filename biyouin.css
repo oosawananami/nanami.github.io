@@ -15,9 +15,10 @@
     background-image: url('/img/bg_scroll02.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 100px;/*ヘッダーに重ならないように*/
   }
 
-body{margin: 110 50 0 50;}/*ヘッダーと重ならないよう位置指定*/
+body{margin: 0 50 0 50;}
 
 /* .main_visual_text{
   display: inline-block;
