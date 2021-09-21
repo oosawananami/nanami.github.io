@@ -7,7 +7,10 @@
     line-height: 48px;
     position: fixed; /*ヘッダーが追従するように固定*/
     top: 0;
-    margin: 0 50 0 50;
+    right: 0;
+    left: 0;
+    margin: 0 0 0 0;
+    background-color: #FFF;
   }
 
   .main_visual{
