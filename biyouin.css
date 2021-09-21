@@ -352,14 +352,17 @@ transform: translateY(15%);
   .header h1{
     float: left; /*ロゴを左に浮かせる*/
   }
-.header ul a {
+.header ul li a {
     text-decoration: none;
     color: black;
     padding-left: 10px;
     padding-right: 10px;
   }
 
-.header ul{  float: right; /*メニューリストを右に浮かせる*/}
+.header ul{
+    float: right; /*メニューリストを右に浮かせる*/
+    list-style: none;
+}
 
 .burger{display: none;}
 
