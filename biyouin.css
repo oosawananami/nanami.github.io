@@ -9,18 +9,24 @@
     top: 0;
     right: 0;
     left: 0;
-    margin: 0 0 0 0;
+    margin: 0 50 0 50;
     background-color: #FFF;
+    z-index: 500; /* ヘッダーを最前面に表示 */
   }
 
   .main_visual{
     width: 100%;
     height: 80vh;
     text-align: center;
-    background-image: url('/img/bg_scroll02.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
     margin-top: 100px;/*ヘッダーに重ならないように*/
+  }
+  .picture{
+    display: none;
+    background-image: url('img/bg_scroll02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
   }
 
 body{margin: 0 50 0 50;}
@@ -221,6 +227,8 @@ transform: translateY(15%);
   vertical-align: middle;
   background-image: url('img/icon_menu/icon_other.svg');
   background-repeat: no-repeat;/*アイコンの繰り返しなし*/
+  object-fit: cover;
+
 }
 
 .hurubosan{
@@ -387,6 +395,8 @@ transform: translateY(15%);
 }
 
 .style-img img{
+  object-fit: cover;
+  object-position: top; /*トリミング位置*/
   position: absolute;
   width: 75%;
   height: 75%;
