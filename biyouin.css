@@ -25,58 +25,12 @@
     background-image: url('img/bg_scroll02.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left;
     width: 100%;
     height: 80vh;
   }
 
-body{margin: 0 50 0 50;}
 
-/* .main_visual_text{
-  display: inline-block;
-  padding: 10px 20px; */
-
-
-/*-------------------
-*
-*  About
-*
---------------------*/
-.About {padding-top: 200px;}
-
-.wrapper-about{
-  display: flex;
-  justify-content: center;
-  /* flex-wrap: wrap; */
-}
-
-.img-about{width: 50%;}
-
-.wrapper-txt{
-  display: flex;
-  flex-flow: column;
-  padding: 60 0 0 60;
-  text-align: center;
-
-}
-
-.section-title{/*テキスト左詰めのタイトル*/
-  margin: 0;
-  width: 50%;
-  text-align: left;
-  font-size: 2.3em;
-}
-
-.about-title{
-  text-align: left;
-  width: 50%;
-}
-
-.txt{text-align: center;}
-
-.about-text{
-  display: inline-block;
-  text-align: left;
-}
 
 /*-------------------
 *
@@ -153,7 +107,7 @@ transform: translateY(15%);
 *  Menu
 *
 --------------------*/
-.Menu{padding-top: 200px;}
+#Menu{padding-top: 200px;}
 
 .contents01{/*cut*/
   font-size: 1.8em;
@@ -294,7 +248,7 @@ transform: translateY(15%);
 *  Reserve
 *
 --------------------*/
-.Reserve{margin-top: 200px;
+#Reserve{margin-top: 200px;
    background-color: #E9DCD5;}
 .wrap-reserve{
   display: flex;
@@ -330,7 +284,7 @@ transform: translateY(15%);
 *  access
 *
 --------------------*/
-.Access{margin-top: 200px;}
+#Access{margin-top: 200px;}
 
 .wrap-shop{
   text-align: center;
@@ -364,6 +318,9 @@ transform: translateY(15%);
 *
 --------------------*/
 @media screen and (min-width: 501px){/*PCの場合*/
+
+body{margin: 0 30 0 30;}
+
   .header h1{
     float: left; /*ロゴを左に浮かせる*/
   }
@@ -384,12 +341,56 @@ transform: translateY(15%);
 }
 .burger{display: none;}
 
+
+body{margin: 0 50 0 50;}
+/*-------------------
+*
+*  About
+*
+--------------------*/
+#About {padding-top: 200px;}
+
+.wrapper-about{
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.img-about{width: 50%;}
+
+.wrapper-txt{
+  display: flex;
+  flex-flow: column;
+  padding: 60 0 0 60;
+  text-align: center;
+
+}
+
+.section-title{/*テキスト左詰めのタイトル*/
+  margin: 0;
+  width: 50%;
+  text-align: left;
+  font-size: 2.3em;
+}
+
+.about-title{
+  text-align: left;
+  width: 50%;
+}
+
+.txt{text-align: center;}
+
+.about-text{
+  display: inline-block;
+  text-align: left;
+}
+
 /*-------------------
 *
 *  Style
 *
 --------------------*/
-.style{padding-top: 200px;}
+#style{padding-top: 200px;}
 .style-img{  margin: 0 200 0 200;
 
 }
@@ -525,10 +526,52 @@ transform: translateY(15%);
 
 /*-------------------
 *
+*  About
+*
+--------------------*/
+#About {padding-top: 200px;}
+
+.wrapper-about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.img-about{}
+
+.wrapper-txt{
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.section-title{/*テキスト左詰めのタイトル*/
+  margin: 0;
+  width: 50%;
+  text-align: left;
+  font-size: 2.3em;
+}
+
+.about-title{
+  text-align: left;
+  width: 50%;
+}
+
+.txt{text-align: center;}
+
+.about-text{
+  display: inline-block;
+  text-align: left;
+}
+
+/*-------------------
+*
 *  Style
 *
 --------------------*/
-.style{padding-top: 200px;}
+#style{padding-top: 200px;}
+
 .style-img{  margin: 0 20 0 20;}
 .style-img img{
   position: absolute;
