@@ -1,7 +1,4 @@
 @charset "UTF-8";
-
-
-
   header {
     overflow: hidden; /*領域に収まらない内容をどう処理するかの指定*/
     line-height: 48px;
@@ -9,7 +6,6 @@
     top: 0;
     right: 0;
     left: 0;
-    margin: 0 50 0 50;
     background-color: #FFF;
     z-index: 500; /* ヘッダーを最前面に表示 */
   }
@@ -321,7 +317,9 @@ transform: translateY(15%);
 
 body{margin: 0 30 0 30;}
 
-  .header h1{
+header{margin: 0 50 0 50;}
+
+.header h1{
     float: left; /*ロゴを左に浮かせる*/
   }
 .header ul a {
@@ -453,9 +451,9 @@ body{margin: 0 50 0 50;}
 
 
 @media screen and (max-width: 500px){/*スマホ、タブレット表示*/
-  .header h1{float: center; /*ロゴを左に浮かせる*/}
+.header h1{float: center; /*ロゴ位置*/}
 
- .burger{/*ハンバーガーメニュー*/
+.burger{/*ハンバーガーメニュー*/
     display: block;
     width: 39px;
     height: 39px;
@@ -474,7 +472,7 @@ body{margin: 0 50 0 50;}
     transform: translateX(-50%);
     background-color: black;
   }
- .bar_top{top: 10px;}
+ .bar_top{top: 30px;}
  .bar_mid{
   top: 50%;
   transform: translate(-50%,-50%);
