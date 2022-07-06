@@ -406,7 +406,6 @@ transform: translateY(15%);
   /* right: 0; */
   vertical-align:bottom;
   margin-right: 0;
-  object-fit：cover;
 }
 
 .style-img li{
@@ -499,7 +498,7 @@ transform: translateY(15%);
 /*↓メニュー開いたときの表示*/
 .header ul{
   display: none;
-  width: 100%;
+  width: 30%;
   height: 100%;
   position: fixed;
   top: 0;
@@ -542,6 +541,7 @@ transform: translateY(15%);
   vertical-align:bottom;
   margin-right: 0;
   object-fit：cover;
+  object-position: top;
 }
 
 .style-img li{
