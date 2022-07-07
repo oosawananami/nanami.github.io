@@ -30,33 +30,6 @@
 
 /*-------------------
 *
-*  Consept
-*
---------------------*/
-.Concept {padding-top: 200px;
-}
-
-.wrapper-concept{
-  display: flex;
-  text-align: left;
-  justify-content: center;
-}
-
-.wrap-txt{
-  text-align: left;
-  padding: 60 60 0 0;
-}
-.concept-title{
-  text-align: left;
-  width: 50%;
-}
-ol{
- padding-left: 20;
- display: table;}
-
-.img-concept{width: 50%;}
-/*-------------------
-*
 *  Staff
 *
 --------------------*/
@@ -385,6 +358,33 @@ body{margin: 0 50 0 50;}
 
 /*-------------------
 *
+*  Consept
+*
+--------------------*/
+#Concept {padding-top: 200px;
+}
+
+.wrapper-concept{
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
+.wrap-txt{
+  text-align: left;
+  padding: 60 60 0 0;
+}
+.concept-title{
+  text-align: left;
+  width: 50%;
+}
+ol{
+ padding-left: 20;
+ display: table;}
+
+.img-concept{width: 50%;}
+/*-------------------
+*
 *  Style
 *
 --------------------*/
@@ -472,7 +472,7 @@ body{margin: 0 50 0 50;}
     transform: translateX(-50%);
     background-color: black;
   }
- .bar_top{top: 30px;}
+ .bar_top{top: 10px;}
  .bar_mid{
   top: 50%;
   transform: translate(-50%,-50%);
@@ -565,6 +565,32 @@ body{margin: 0 50 0 50;}
 
 /*-------------------
 *
+*  Consept
+*
+--------------------*/
+#Concept {padding-top: 200px;
+}
+
+.wrapper-concept{
+  text-align: left;
+  justify-content: center;
+}
+
+.wrap-txt{
+  text-align: left;
+  padding: 60 60 0 0;
+}
+.concept-title{
+  text-align: left;
+  width: 50%;
+}
+ol{
+ padding-left: 20;
+ display: table;}
+
+.img-concept{}
+/*-------------------
+*
 *  Style
 *
 --------------------*/
@@ -641,4 +667,5 @@ body{margin: 0 50 0 50;}
 .DINER img{
   padding: 0 10 0 10;
   width: 70px;}
+  
  }
