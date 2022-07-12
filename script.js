@@ -28,4 +28,8 @@ $(function(){
         settings:'unslick'
       }]
     });
+    //リサイズした時に実行
+    $(window).on('resize orientationchange', function() {
+　　    $('.slide').slick('resize');
+    });
 });

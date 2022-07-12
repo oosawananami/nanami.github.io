@@ -603,16 +603,16 @@ ol{
 .style-img{  margin: 0 20 0 20;}
 
 .style-img .slide img{
+  object-fit:cover;
+  object-position: top;
   position: absolute;
-  width: 75%;
+  /* width: 75%; */
   height: 75vw;
   top: 50px;
-  left: 50px;
-  bottom: 0;
-  vertical-align:bottom;
+  /* left: 50px; */
+  /* bottom: 0; */
+  /* vertical-align:bottom; */
   margin-right: 0;
-  object-fit：cover;
-  object-position: top;
 }
 
 .style-img .slide li{
