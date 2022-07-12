@@ -594,40 +594,37 @@ ol{
 *  Style
 *
 --------------------*/
-#style{padding-top: 200px;}
+#style{padding-top: 100px;}
+.slide{
+  list-style-type: none;
+  padding: 0;
+}
 
 .style-img{  margin: 0 20 0 20;}
-.style-img img{
+
+.style-img .slide img{
   position: absolute;
   width: 75%;
-  height: 75%;
+  height: 75vw;
   top: 50px;
   left: 50px;
   bottom: 0;
-  /* right: 0; */
   vertical-align:bottom;
   margin-right: 0;
   object-fit：cover;
   object-position: top;
 }
 
-.style-img li{
-  /* width: 25%;  */
-  /*1行に4つ並べる*/
+.style-img .slide li{
   position: relative;
   align-self: center;
+  height: 80vw;
 }
 
-.style-img li::before{
+.style-img .slide li::before{
   content: "";
   display: block;
   padding-top: 100%; /*アスペクト比指定*/
-}
-.style-img ul{
-  list-style-type: none; /*リストの装飾*/
-  /* display:flex; */
-  flex-wrap: wrap; /*子要素の折り返し表示*/
-  padding: 0;
 }
 
 
@@ -667,5 +664,5 @@ ol{
 .DINER img{
   padding: 0 10 0 10;
   width: 70px;}
-  
+
  }
