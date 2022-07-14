@@ -217,37 +217,7 @@ transform: translateY(15%);
 *  Reserve
 *
 --------------------*/
-#Reserve{margin-top: 200px;
-   background-color: #E9DCD5;}
-.wrap-reserve{
-  display: flex;
-}
-.yoyaku{
-  text-align: left;
-  padding: 40 0 20 30;
-  width: 50%;
-}
-.yoyaku-jikan{
-  /* font-size: 1.5em; */
-}
-
-.opn{
-  margin: 0;
-  padding:10 0 0 5;
-  font-weight: bold;
-}
-
-.cls{
-  margin: 0;
-  padding:10 0 0 5;
-  font-weight: bold;
-}
-.htpp{
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-.img-reserve{width: 50%;}
+/*それぞれレスポンシブの方に記載*/
 /*-------------------
 *
 *  access
@@ -447,6 +417,43 @@ ol{
 .shita{padding: 20 80 20 80;}
 
 
+
+/*-------------------
+*
+*  Reserve
+*
+--------------------*/
+#Reserve{margin-top: 200px;
+   background-color: #E9DCD5;}
+.wrap-reserve{
+  display: flex;
+}
+.yoyaku{
+  text-align: left;
+  padding: 40 0 20 30;
+  width: 50%;
+}
+.yoyaku-jikan{
+  /* font-size: 1.5em; */
+}
+
+.opn{
+  margin: 0;
+  padding:10 0 0 5;
+  font-weight: bold;
+}
+
+.cls{
+  margin: 0;
+  padding:10 0 0 5;
+  font-weight: bold;
+}
+.htpp{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.img-reserve{width: 50%;}
 }/*↑PC*/
 
 
@@ -568,7 +575,7 @@ ol{
 *  Consept
 *
 --------------------*/
-#Concept {padding-top: 200px;
+#Concept {padding-top: 100px;
 }
 
 .wrapper-concept{
@@ -578,7 +585,6 @@ ol{
 
 .wrap-txt{
   text-align: left;
-  padding: 60 60 0 0;
 }
 .concept-title{
   text-align: left;
@@ -594,10 +600,9 @@ ol{
 *  Style
 *
 --------------------*/
-#style{padding-top: 100px;}
+#style{padding-top: 150px;}
 .slide{
   list-style-type: none;
-  padding: 0;
 }
 
 .style-img{  margin: 0 20 0 20;}
@@ -606,27 +611,16 @@ ol{
   object-fit:cover;
   object-position: top;
   position: absolute;
-  /* width: 75%; */
   height: 75vw;
   top: 50px;
-  /* left: 50px; */
-  /* bottom: 0; */
-  /* vertical-align:bottom; */
-  margin-right: 0;
+  padding-left: 15px;
 }
 
 .style-img .slide li{
-  position: relative;
-  align-self: center;
+  display: block;
+
   height: 80vw;
 }
-
-.style-img .slide li::before{
-  content: "";
-  display: block;
-  padding-top: 100%; /*アスペクト比指定*/
-}
-
 
 /*-------------------
 *
@@ -664,5 +658,40 @@ ol{
 .DINER img{
   padding: 0 10 0 10;
   width: 70px;}
+  /*-------------------
+  *
+  *  Reserve
+  *
+  --------------------*/
+  #Reserve{margin-top: 150px;
+     background-color: #E9DCD5;}
+  .wrap-reserve{
+    /* display: flex; */
+  }
+  .yoyaku{
+    /* text-align: left; */
+    padding: 40 0 20 30;
+  }
+  .yoyaku-jikan{
+    /* font-size: 1.5em; */
+  }
+
+  .opn{
+    margin: 0;
+    padding:10 0 0 5;
+    font-weight: bold;
+  }
+
+  .cls{
+    margin: 0;
+    padding:10 0 0 5;
+    font-weight: bold;
+  }
+  .htpp{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  .img-reserve{  }
 
  }
